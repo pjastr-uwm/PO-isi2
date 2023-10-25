@@ -5,7 +5,7 @@ public class TestCat {
         Cat c2 = c1.createCat("Azor");
         System.out.println(c2.name);
         Cat c3 = c1.createCat(null);
-        System.out.println(c3);
+        System.out.println(c3.name);
     }
 }
 
