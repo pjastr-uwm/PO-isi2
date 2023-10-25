@@ -7,8 +7,9 @@ public class TestTime {
         Time t2 = new Time();
         t2.hours = 13;
         t2.minutes = 44;
-        t1.addTime(t2);
+        Time t3 = t1.addTime(t2);
         System.out.println(t1.hours + ":"+t1.minutes);
+        System.out.println(t3.hours + ":"+t3.minutes);
     }
 }
 
@@ -17,7 +18,7 @@ class Time
     int hours;
     int minutes;
 
-    public void addTime(Time otherTime)
+    public Time addTime(Time otherTime)
     {
         this.hours += otherTime.hours;
         this.minutes += otherTime.minutes;
@@ -30,5 +31,6 @@ class Time
         {
             this.hours -= 24;
         }
+        return this;
     }
 }
