@@ -20,6 +20,7 @@ class Time
 
     public Time addTime(Time otherTime)
     {
+        Time temp = new Time();
         this.hours += otherTime.hours;
         this.minutes += otherTime.minutes;
         if (this.minutes > 59)
@@ -31,6 +32,8 @@ class Time
         {
             this.hours -= 24;
         }
-        return this;
+        temp.hours = this.hours;
+        temp.minutes = this.minutes;
+        return temp;
     }
 }
