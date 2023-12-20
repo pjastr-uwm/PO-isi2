@@ -1,4 +1,4 @@
-package komparator;
+package komparator.zad1;
 
 public class Osoba {
 

@@ -1,6 +1,5 @@
-package komparator;
+package komparator.zad1;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 
 public class TestOsoba {
