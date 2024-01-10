@@ -1,4 +1,4 @@
-package kolekcje.zadAK1;
+package kolekcje.zadK1;
 
 import java.util.HashMap;
 
