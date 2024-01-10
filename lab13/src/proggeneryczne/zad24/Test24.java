@@ -12,4 +12,8 @@ public class Test24 {
     public static Bird findMin(Triple<? extends Bird> arg){
         return arg.getElem2();
     }
+
+    public static Object findMin2(Triple<? super Eagle> arg){
+        return arg.getElem2();
+    }
 }
